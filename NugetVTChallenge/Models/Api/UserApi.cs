@@ -1,4 +1,4 @@
-﻿namespace VTChallenge.Models.Api
+﻿namespace NugetVTChallenge.Models.Api
 {
     public class UserApi
     {

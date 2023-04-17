@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace VTChallenge.Models {
+namespace NugetVTChallenge.Models {
     [Table("V_PLAYERS_TOURNAMENT")]
     public class TournamentPlayers {
         [Key]

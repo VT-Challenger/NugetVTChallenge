@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace VTChallenge.Models {
+namespace NugetVTChallenge.Models {
     public class MatchRound {
 
         public int Mid { get; set; }
