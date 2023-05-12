@@ -21,9 +21,9 @@ namespace NugetVTChallenge.Interfaces {
         Task InscriptionPlayerTeamAle(int tid, string uid);
         Task<bool> ValidateInscription(int tid, string uid);
         Task<List<TournamentComplete>> GetTournamentsUser(string name);
-        Task<List<TournamentComplete>> GetTournamentsUserFindAsync(string name,string filtro);
+        Task<List<TournamentComplete>> GetTournamentsUserFindAsync(string name, string filtro);
         Task DeleteTournament(int tid);
-        Task DeteleUserTournamentAsync(int tid, string uid);
+        Task DeleteUserTournamentAsync(int tid, string uid);
         Task UpdateMatchesTournamentAsync(int mid, int rblue, int rred);
         Task<Match> FindMatchAsync(int mid);
         Task<int> TotalMatchesRound(int rid);
@@ -35,7 +35,7 @@ namespace NugetVTChallenge.Interfaces {
         Task InsertRoundAsync(string name, DateTime date, int tid);
         Task InsertMatchAsync(int tblue, int tred, DateTime time, int rid);
         Task<Round> FindRoundAsync(int rid);
-       
+
 
     }
 }
