@@ -22,7 +22,7 @@ namespace NugetVTChallenge.Interfaces {
         Task<bool> ValidateInscription(int tid, string uid);
         Task<List<TournamentComplete>> GetTournamentsUser(string name);
         Task<List<TournamentComplete>> GetTournamentsUserFindAsync(string name, string filtro);
-        Task DeleteTournament(int tid);
+        Task DeleteTournament(int tid, string uid);
         Task DeleteUserTournamentAsync(int tid, string uid);
         Task UpdateMatchesTournamentAsync(int mid, int rblue, int rred);
         Task<Match> FindMatchAsync(int mid);
