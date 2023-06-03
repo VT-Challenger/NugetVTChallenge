@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NugetVTChallenge.Models {
-    public class Trayectoria {
+    public class Trajectory {
         public int Tid { get; set; }
         public string TournamentName { get; set; }
         public string TournamentImage { get; set; }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace NugetVTChallenge.Models {
     public class InsertTournament {
 
-        public string JsonTournament { get; set; }
-        public string JsonRounds { get; set; }
-        public string JsonMatches { get; set; }
+        public Tournament JsonTournament { get; set; }
+        public List<Round> JsonRounds { get; set; }
+        public List<Match> JsonMatches { get; set; }
 
     }
 }
