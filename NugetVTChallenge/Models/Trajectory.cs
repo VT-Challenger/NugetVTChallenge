@@ -12,6 +12,6 @@ namespace NugetVTChallenge.Models {
         public string TournamentRank { get; set; }
         public DateTime TournamentDateInit { get; set; }
         public string OrganizatorImage { get; set; }
-        public bool Winner { get; set; }
+        public WinnerStatus Winner { get; set; }
     }
 }
