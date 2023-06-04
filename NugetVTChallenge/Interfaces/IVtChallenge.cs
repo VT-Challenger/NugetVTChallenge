@@ -36,5 +36,6 @@ namespace NugetVTChallenge.Interfaces {
         Task InsertMatchAsync(int tblue, int tred, DateTime time, int rid);
         Task<Round> FindRoundAsync(int rid);
         Task<List<Trajectory>> GetTrajectoryUserAsync(string uid);
+        Task<List<Weapon>> GetWeaponsAsync();
     }
 }

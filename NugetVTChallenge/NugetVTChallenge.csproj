@@ -5,12 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>David Dominguez Blanco</Authors>
+    <Authors>David Dominguez Blanco, Andrei Garbea</Authors>
     <Description>Nuget con los modelos necesarios para poder consumir los datos de VTChallenge</Description>
     <PackageIcon>landing-back.jpg</PackageIcon>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <Version>6.0.0</Version>
+    <Version>6.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

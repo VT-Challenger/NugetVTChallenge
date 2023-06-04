@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NugetVTChallenge.Models
 {
-    public class Weapon
+    public class Skin
     {
         public string Uuid { get; set; }
         public string DisplayName { get; set; }
-        public List<Skin> Skins { get; set; }
+        public string DisplayIcon { get; set; }
     }
 }
