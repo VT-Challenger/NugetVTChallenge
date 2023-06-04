@@ -37,5 +37,6 @@ namespace NugetVTChallenge.Interfaces {
         Task<Round> FindRoundAsync(int rid);
         Task<List<Trajectory>> GetTrajectoryUserAsync(string uid);
         Task<List<Weapon>> GetWeaponsAsync();
+        Task<Skin> GetSkinAsync(string skinid);
     }
 }
